@@ -4,19 +4,51 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- 1. 기본 SEO 메타 태그 -->
+<!-- 1. 기본 SEO 메타 태그 (네이버 및 구글 검색엔진 최적화) -->
 <title>산청군의원 · 지리산 아래 주민 곁에서 (공식 의정활동 보고 채널)</title>
 <meta name="description" content="경상남도 산청군의회 군의원의 공식 의정활동 보고 및 주민 소통 채널입니다. 농업소득, 어르신복지, 마을안전, 청년정주 공약 및 프로필 안내.">
 <meta name="keywords" content="산청군의원, 산청군, 산청군의회, 의정활동, 산청군민원, 지리산, 산청공약, 산청군농업">
 <meta name="author" content="산청군의원 사무실">
 <meta name="robots" content="index, follow">
+<link rel="canonical" href="https://nagaja27-cyber.github.io/sancheong-council/">
 
-<!-- 2. 오픈그래프 (OG Tag - 카카오톡, 페이스북 공유용) -->
+<!-- 2. 오픈그래프 (OG Tag - 카카오톡, 페이스북, 라인 공유 시 썸네일 및 문구) -->
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="산청군의원 공식 웹사이트">
 <meta property="og:title" content="산청군의원 · 말보다 기록으로 증명하는 의정활동">
 <meta property="og:description" content="지리산 아래, 주민 곁에서 — 산청군의원의 상시 의정활동 보고 및 주민 소통 창구입니다.">
+<meta property="og:url" content="https://nagaja27-cyber.github.io/sancheong-council/">
+<meta property="og:image" content="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&auto=format&fit=crop&q=80">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- 3. 트위터 카드 -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="산청군의원 · 의정활동 보고">
+<meta name="twitter:description" content="산청군민을 위한 군의원의 상시 의정활동 보고 및 소통 채널입니다.">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&auto=format&fit=crop&q=80">
+
+<!-- 4. 구글/네이버 구조화 데이터 (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "jobTitle": "산청군의회 군의원",
+  "affiliation": {
+    "@type": "Organization",
+    "name": "산청군의회"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "산청군",
+    "addressRegion": "경상남도",
+    "addressCountry": "KR"
+  },
+  "url": "https://nagaja27-cyber.github.io/sancheong-council/",
+  "description": "경상남도 산청군의회 군의원의 공식 상시 의정활동 보고 및 민원 소통 채널"
+}
+</script>
 
 <!-- Fonts & Icons -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -154,6 +186,33 @@
   textarea.inp{resize:vertical;min-height:100px}
   .note{font-size:13px;color:var(--muted);margin-top:14px;display:flex;align-items:center;gap:7px}
 
+  /* --- Kakao Floating Button --- */
+  .kakao-float-btn {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    z-index: 99;
+    background: #FEE500;
+    color: #191919;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 12px 20px;
+    border-radius: 30px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all .2s ease;
+  }
+  .kakao-float-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.22);
+    background: #fada0A;
+  }
+  .kakao-float-btn i {
+    font-size: 20px;
+  }
+
   /* --- footer --- */
   footer{background:var(--pine-deep);color:#C4CFC3;padding:52px 0 40px}
   .frow2{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;flex-wrap:wrap}
@@ -179,6 +238,12 @@
     .tcard{grid-template-columns:1fr;gap:16px}
     .arrow{transform:rotate(90deg)}
     .frow{grid-template-columns:1fr}
+    .kakao-float-btn {
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 16px;
+      font-size: 13px;
+    }
   }
 </style>
 </head>
@@ -218,8 +283,8 @@
     </div>
     <div class="reveal in">
       <div class="portrait">
-        <!-- 메인 프로필 사진 (실제 파일 준비 시 main_profile.jpg로 저장하시면 바뀝니다) -->
-        <img src="main_profile.jpg" alt="메인 프로필" onerror="this.src='https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&auto=format&fit=crop&q=80'">
+        <!-- 메인 프로필 사진 (실제 파일 올릴 시 main_profile.jpg로 연동) -->
+        <img src="main_profile.jpg" alt="산청군의원 메인 프로필" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop&q=80'">
         <div class="tag"><i class="ti ti-map-pin"></i>산청군 전 지역</div>
       </div>
     </div>
@@ -244,8 +309,8 @@
     <div class="profile-grid">
       <div class="profile-img-box reveal">
         <div style="aspect-ratio:4/5; border-radius:16px; overflow:hidden; border:1px solid var(--line); box-shadow:0 4px 12px rgba(0,0,0,0.03);">
-          <!-- 프로필 서브 사진 (실제 파일 준비 시 profile.jpg로 저장하시면 바뀝니다) -->
-          <img src="profile.jpg" alt="프로필 사진" onerror="this.src='https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&auto=format&fit=crop&q=80'" style="width:100%; height:100%; object-fit:cover;">
+          <!-- 서브 프로필 사진 (실제 파일 올릴 시 profile.jpg로 연동) -->
+          <img src="profile.jpg" alt="프로필 사진" onerror="this.src='https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&auto=format&fit=crop&q=80'" style="width:100%; height:100%; object-fit:cover;">
         </div>
       </div>
 
@@ -402,6 +467,12 @@
     </form>
   </div>
 </section>
+
+<!-- Floating Kakao Button -->
+<a href="https://open.kakao.com/" target="_blank" class="kakao-float-btn" aria-label="카카오톡 민원 상담">
+  <i class="ti ti-message-dots"></i>
+  <span>카톡 민원 상담</span>
+</a>
 
 <footer>
   <div class="wrap frow2">

@@ -4,51 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- 1. 기본 SEO 메타 태그 (네이버 및 구글 검색엔진 최적화) -->
-<title>산청군의원 · 지리산 아래 주민 곁에서 (공식 의정활동 보고 채널)</title>
-<meta name="description" content="경상남도 산청군의회 군의원의 공식 의정활동 보고 및 주민 소통 채널입니다. 농업소득, 어르신복지, 마을안전, 청년정주 공약 및 프로필 안내.">
-<meta name="keywords" content="산청군의원, 산청군, 산청군의회, 의정활동, 산청군민원, 지리산, 산청공약, 산청군농업">
+<!-- SEO 최적화 메타 태그 -->
+<title>산청군의원 · 우리 동네의 기분 좋은 변화 (공식 의정활동 보고 채널)</title>
+<meta name="description" content="산청군의회 군의원의 공식 의정활동 보고 및 주민 소통 채널입니다. 농업소득, 어르신복지, 마을안전, 청년정주 공약 및 변화 성과 안내.">
+<meta name="keywords" content="산청군의원, 산청군, 산청군의회, 의정활동, 산청군민원, 지리산, 산청공약, 산청군농업, 산청변화">
 <meta name="author" content="산청군의원 사무실">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://nagaja27-cyber.github.io/sancheong-council/">
-
-<!-- 2. 오픈그래프 (OG Tag - 카카오톡, 페이스북, 라인 공유 시 썸네일 및 문구) -->
-<meta property="og:type" content="website">
-<meta property="og:locale" content="ko_KR">
-<meta property="og:site_name" content="산청군의원 공식 웹사이트">
-<meta property="og:title" content="산청군의원 · 말보다 기록으로 증명하는 의정활동">
-<meta property="og:description" content="지리산 아래, 주민 곁에서 — 산청군의원의 상시 의정활동 보고 및 주민 소통 창구입니다.">
-<meta property="og:url" content="https://nagaja27-cyber.github.io/sancheong-council/">
-<meta property="og:image" content="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&auto=format&fit=crop&q=80">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-
-<!-- 3. 트위터 카드 -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="산청군의원 · 의정활동 보고">
-<meta name="twitter:description" content="산청군민을 위한 군의원의 상시 의정활동 보고 및 소통 채널입니다.">
-<meta name="twitter:image" content="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&auto=format&fit=crop&q=80">
-
-<!-- 4. 구글/네이버 구조화 데이터 (JSON-LD) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "jobTitle": "산청군의회 군의원",
-  "affiliation": {
-    "@type": "Organization",
-    "name": "산청군의회"
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "산청군",
-    "addressRegion": "경상남도",
-    "addressCountry": "KR"
-  },
-  "url": "https://nagaja27-cyber.github.io/sancheong-council/",
-  "description": "경상남도 산청군의회 군의원의 공식 상시 의정활동 보고 및 민원 소통 채널"
-}
-</script>
 
 <!-- Fonts & Icons -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -71,7 +32,7 @@
   *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
   body{font-family:var(--sans);background:var(--paper);color:var(--ink);line-height:1.7;-webkit-font-smoothing:antialiased}
-  h1,h2,h3,h4{font-family:var(--serif);font-weight:600;line-height:1.35;letter-spacing:-0.01em}
+  h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.35;letter-spacing:-0.01em}
   a{color:inherit;text-decoration:none}
   img{max-width:100%}
   .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
@@ -83,7 +44,7 @@
   .btn-ghost{background:transparent;color:var(--pine);border-color:var(--line)}
   .btn-ghost:hover{border-color:var(--pine);background:var(--paper-2)}
 
-  /* --- nav --- */
+  /* --- Navigation --- */
   nav{position:sticky;top:0;z-index:50;background:rgba(245,243,234,.88);backdrop-filter:blur(12px);
     border-bottom:1px solid transparent;transition:all .2s}
   nav.scrolled{border-color:var(--line);box-shadow:0 2px 10px rgba(0,0,0,.04)}
@@ -92,25 +53,25 @@
   .brand .seal{width:34px;height:34px;border-radius:50%;background:var(--pine);color:var(--paper);
     display:flex;align-items:center;justify-content:center;font-size:16px}
   .brand span{color:var(--ink-soft);font-weight:500;font-size:14px;font-family:var(--sans)}
-  .navlinks{display:flex;align-items:center;gap:22px;font-size:15px;color:var(--ink-soft)}
+  .navlinks{display:flex;align-items:center;gap:26px;font-size:15px;color:var(--ink-soft)}
   .navlinks a{transition:color .15s}
   .navlinks a:hover{color:var(--pine)}
   .navlinks .btn{padding:9px 18px;font-size:14px}
 
-  /* --- hero --- */
+  /* --- Hero Header --- */
   .hero{position:relative;overflow:hidden;padding:72px 0 0}
   .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center;position:relative;z-index:2}
-  .hero h1{font-size:clamp(34px,5vw,52px);margin:16px 0 20px}
+  .hero h1{font-size:clamp(32px,4.5vw,48px);margin:16px 0 20px}
   .hero h1 .hl{color:var(--pine);position:relative}
   .hero h1 .hl::after{content:"";position:absolute;left:0;right:0;bottom:6px;height:10px;background:var(--gam-soft);z-index:-1;border-radius:2px}
-  .lead{font-size:18px;color:var(--ink-soft);max-width:30em;margin-bottom:28px}
+  .lead{font-size:17px;color:var(--ink-soft);max-width:32em;margin-bottom:28px;word-break:keep-all}
   .cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:36px}
   .stats{display:flex;gap:34px;border-top:1px solid var(--line);padding-top:22px}
   .stat .num{font-family:var(--serif);font-size:32px;font-weight:700;color:var(--pine)}
   .stat .lab{font-size:13px;color:var(--muted)}
   .portrait{aspect-ratio:4/5;background:var(--paper-2);border:1px solid var(--line);border-radius:20px;
     position:relative;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.05)}
-  .portrait img{width:100%;height:100%;object-fit:cover;display:block}
+  .portrait .pic{position:absolute;inset:0;width:100%;height:100%;display:block;object-fit:cover}
   .portrait .tag{position:absolute;bottom:18px;left:18px;background:var(--white);border:1px solid var(--line);
     border-radius:30px;padding:8px 15px;font-size:13px;font-weight:600;color:var(--ink);display:flex;align-items:center;gap:7px;box-shadow:0 4px 10px rgba(0,0,0,0.06)}
   .portrait .tag i{font-size:16px;color:var(--gam);margin:0}
@@ -118,21 +79,13 @@
   .ridge{position:absolute;left:0;right:0;bottom:-1px;z-index:1;line-height:0;color:var(--pine)}
   .ridge svg{width:100%;height:130px;display:block}
 
-  /* --- section base --- */
+  /* --- Section Common --- */
   section.block{padding:80px 0}
   .sec-head{max-width:34em;margin-bottom:40px}
   .sec-head h2{font-size:clamp(26px,3.4vw,34px);margin:10px 0 12px}
   .sec-head p{color:var(--ink-soft);font-size:16px}
 
-  /* --- profile section --- */
-  .profile-grid {
-    display: grid;
-    grid-template-columns: 300px 1fr;
-    gap: 40px;
-    align-items: start;
-  }
-
-  /* --- signature: translation cards --- */
+  /* --- Translation Cards --- */
   .translate{background:var(--pine-deep);color:var(--paper)}
   .translate .eyebrow{color:var(--moss)}
   .translate .sec-head h2{color:var(--paper)}
@@ -150,32 +103,74 @@
   .outcome p{font-size:15px;color:#CFD8CE}
   .outcome .chk{color:var(--gam);margin-right:6px}
 
-  /* --- vision grid --- */
-  .vgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
-  .vcard{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:26px 22px;transition:transform .2s, box-shadow .2s}
+  /* --- Promise Tracker --- */
+  .vgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+  .vcard{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:28px 24px;transition:transform .2s, box-shadow .2s}
   .vcard:hover{transform:translateY(-4px);box-shadow:0 8px 20px rgba(0,0,0,0.04)}
-  .vcard .ic{width:48px;height:48px;border-radius:12px;background:var(--gam-soft);color:var(--gam-deep);
-    display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:18px}
-  .vcard h3{font-size:18.5px;margin-bottom:8px}
-  .vcard p{font-size:14px;color:var(--ink-soft);line-height:1.6}
+  .vcard-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+  .vcard .ic{width:44px;height:44px;border-radius:12px;background:var(--gam-soft);color:var(--gam-deep);
+    display:flex;align-items:center;justify-content:center;font-size:22px}
+  .badge-status{font-size:12px;font-weight:700;padding:4px 10px;border-radius:20px}
+  .badge-done{background:#E2F0D9;color:#2E6B12}
+  .badge-ing{background:#FFF2CC;color:#8B5A00}
+  .vcard h3{font-size:19px;margin-bottom:8px}
+  .vcard p{font-size:14.5px;color:var(--ink-soft);line-height:1.6;margin-bottom:18px}
+  
+  .progress-wrap{width:100%}
+  .progress-label{display:flex;justify-content:space-between;font-size:12.5px;color:var(--muted);margin-bottom:6px;font-weight:600}
+  .progress-bar{width:100%;height:8px;background:var(--paper);border-radius:4px;overflow:hidden}
+  .progress-fill{height:100%;background:var(--pine);border-radius:4px;transition:width 1s ease-in-out}
 
-  /* --- news grid --- */
+  /* --- Calendar Module --- */
+  .calendar-section{background:var(--paper-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .cal-container{display:grid;grid-template-columns:1fr 340px;gap:28px;background:var(--white);border:1px solid var(--line);border-radius:20px;padding:28px;box-shadow:0 4px 16px rgba(0,0,0,0.02)}
+  .cal-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px}
+  .cal-header h3{font-size:22px;color:var(--pine-deep);display:flex;align-items:center;gap:8px}
+  .cal-nav{display:flex;gap:6px}
+  .cal-nav-btn{width:32px;height:32px;border-radius:8px;border:1px solid var(--line);background:var(--paper);cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--ink)}
+  .cal-nav-btn:hover{background:var(--pine);color:var(--white)}
+
+  .cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;text-align:center}
+  .cal-day-head{font-size:13px;font-weight:700;color:var(--muted);padding:8px 0}
+  .cal-day-head.sun{color:#D32F2F}
+  .cal-day-head.sat{color:#1976D2}
+
+  .cal-cell{min-height:85px;background:var(--paper-2);border:1px solid var(--line);border-radius:10px;padding:8px 6px;text-align:left;position:relative;cursor:pointer;transition:all .15s}
+  .cal-cell:hover{border-color:var(--pine);background:var(--white);box-shadow:0 2px 8px rgba(0,0,0,0.05)}
+  .cal-cell.active{border-color:var(--pine);background:var(--paper);outline:2px solid var(--pine)}
+  .cal-cell .num{font-size:13px;font-weight:600;color:var(--ink-soft);margin-bottom:4px;display:block}
+  .cal-cell.sun .num{color:#D32F2F}
+  .cal-cell.other-month{opacity:0.3;pointer-events:none}
+
+  .cal-tag{display:block;font-size:10.5px;font-weight:600;padding:2px 5px;border-radius:4px;margin-bottom:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .tag-field{background:#E2F0D9;color:#2E6B12}
+  .tag-council{background:#FCE4D6;color:#C65911}
+  .tag-meet{background:#FFF2CC;color:#8B5A00}
+
+  .cal-detail-card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;flex-direction:column;justify-content:space-between}
+  .cal-detail-head{border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:14px}
+  .cal-detail-head .date-title{font-family:var(--serif);font-size:18px;color:var(--pine-deep);font-weight:700}
+  .schedule-item{margin-bottom:16px}
+  .schedule-item:last-child{margin-bottom:0}
+  .schedule-item .time{font-size:12px;font-weight:700;color:var(--gam-deep);display:inline-block;margin-bottom:2px}
+  .schedule-item .title{font-size:14.5px;font-weight:700;color:var(--ink);margin-bottom:4px;line-height:1.4}
+  .schedule-item .desc{font-size:13px;color:var(--ink-soft);line-height:1.5}
+
+  /* --- SNS News Cards & SVG Placeholder --- */
   .ngrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
   .ncard{background:var(--white);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:transform .2s, box-shadow .2s;display:block}
   .ncard:hover{transform:translateY(-4px);box-shadow:0 10px 24px rgba(0,0,0,0.06)}
-  .ncard .thumb{aspect-ratio:16/10;background:#EDEBDF;position:relative;
-    display:flex;align-items:center;justify-content:center;color:#B7BDB2;font-size:30px;overflow:hidden}
-  .ncard .thumb img{width:100%;height:100%;object-fit:cover;transition:transform .3s}
-  .ncard:hover .thumb img{transform:scale(1.04)}
+  .ncard .thumb{aspect-ratio:16/10;background:#EDEBDF;position:relative;display:flex;align-items:center;justify-content:center;color:#B7BDB2;overflow:hidden}
+  .ncard .thumb svg{width:100%;height:100%;object-fit:cover}
   .ncard .body{padding:18px 20px}
   .ncard h3{font-family:var(--sans);font-weight:600;font-size:16px;margin:0 0 10px;line-height:1.45;color:var(--ink)}
   .ncard .meta{display:flex;align-items:center;gap:7px;font-size:12.5px;color:var(--muted)}
   .ncard .meta .src{display:inline-flex;align-items:center;gap:5px;font-weight:600;color:var(--ink-soft)}
   .ncard .meta .dot{width:3px;height:3px;border-radius:50%;background:var(--muted)}
   .src-badge{position:absolute;top:12px;left:12px;width:32px;height:32px;border-radius:50%;background:var(--white);
-    border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:16px;box-shadow:0 2px 6px rgba(0,0,0,0.1)}
+    border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:16px;box-shadow:0 2px 6px rgba(0,0,0,0.1);z-index:2}
 
-  /* --- contact form --- */
+  /* --- Contact Form --- */
   .contact{background:var(--paper-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
   .cform{background:var(--white);border:1px solid var(--line);border-radius:20px;padding:36px;max-width:640px;box-shadow:0 4px 16px rgba(0,0,0,0.02)}
   .frow{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
@@ -186,34 +181,7 @@
   textarea.inp{resize:vertical;min-height:100px}
   .note{font-size:13px;color:var(--muted);margin-top:14px;display:flex;align-items:center;gap:7px}
 
-  /* --- Kakao Floating Button --- */
-  .kakao-float-btn {
-    position: fixed;
-    bottom: 28px;
-    right: 28px;
-    z-index: 99;
-    background: #FEE500;
-    color: #191919;
-    font-weight: 700;
-    font-size: 14px;
-    padding: 12px 20px;
-    border-radius: 30px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    transition: all .2s ease;
-  }
-  .kakao-float-btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.22);
-    background: #fada0A;
-  }
-  .kakao-float-btn i {
-    font-size: 20px;
-  }
-
-  /* --- footer --- */
+  /* --- Footer --- */
   footer{background:var(--pine-deep);color:#C4CFC3;padding:52px 0 40px}
   .frow2{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;flex-wrap:wrap}
   footer .fbrand{font-family:var(--serif);font-size:20px;color:var(--paper);margin-bottom:12px}
@@ -224,26 +192,20 @@
   footer .socials a:hover{background:rgba(255,255,255,.15);transform:translateY(-2px)}
   .fbot{border-top:1px solid rgba(255,255,255,.12);margin-top:32px;padding-top:20px;font-size:12.5px;color:#95A394}
 
-  /* --- reveal animation --- */
+  /* --- Animations --- */
   .reveal{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}
   .reveal.in{opacity:1;transform:none}
 
   @media (max-width:860px){
     .hero-grid{grid-template-columns:1fr;gap:32px}
     .portrait{max-width:100%;aspect-ratio:1/1}
-    .profile-grid{grid-template-columns:1fr;gap:24px}
-    .vgrid{grid-template-columns:repeat(2,1fr)}
+    .vgrid{grid-template-columns:1fr}
+    .cal-container{grid-template-columns:1fr}
     .ngrid{grid-template-columns:1fr}
     .navlinks{display:none}
     .tcard{grid-template-columns:1fr;gap:16px}
     .arrow{transform:rotate(90deg)}
     .frow{grid-template-columns:1fr}
-    .kakao-float-btn {
-      bottom: 20px;
-      right: 20px;
-      padding: 10px 16px;
-      font-size: 13px;
-    }
   }
 </style>
 </head>
@@ -256,9 +218,9 @@
       산청군의원 <span>공식 의정보고</span>
     </div>
     <div class="navlinks">
-      <a href="#profile">프로필</a>
       <a href="#work">의정활동</a>
-      <a href="#promise">우리 동네 약속</a>
+      <a href="#promise">핵심 공약</a>
+      <a href="#calendar">월별 일정</a>
       <a href="#news">소식</a>
       <a href="#contact" class="btn btn-primary"><i class="ti ti-message-2"></i>민원 남기기</a>
     </div>
@@ -269,10 +231,10 @@
   <div class="wrap hero-grid">
     <div class="reveal in">
       <p class="eyebrow">지리산 아래, 주민 곁에서</p>
-      <h1>말보다 <span class="hl">기록으로</span><br>증명하는 의정활동</h1>
-      <p class="lead">농업 소득, 어르신 복지, 마을 안전. 지난 의정활동과 우리 동네를 위한 구체적인 성과를 투명하게 보여드립니다.</p>
+      <h1>우리 동네의 <br><span class="hl">기분 좋은 변화,</span><br>함께 만듭니다!</h1>
+      <p class="lead">정체된 지역 발전에 새로운 활력을 불어넣겠습니다. 주민과 함께 그리는 산청의 더 나은 내일, 확실한 비전과 실행력으로 보여드리겠습니다.</p>
       <div class="cta-row">
-        <a href="#work" class="btn btn-primary"><i class="ti ti-file-description"></i>이번 달 한 일 보기</a>
+        <a href="#promise" class="btn btn-primary"><i class="ti ti-rocket"></i>공약 이행 현황 보기</a>
         <a href="#contact" class="btn btn-ghost"><i class="ti ti-mail"></i>바로 소통하기</a>
       </div>
       <div class="stats">
@@ -283,9 +245,27 @@
     </div>
     <div class="reveal in">
       <div class="portrait">
-        <!-- 메인 프로필 사진 (실제 파일 올릴 시 main_profile.jpg로 연동) -->
-        <img src="main_profile.jpg" alt="산청군의원 메인 프로필" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop&q=80'">
-        <div class="tag"><i class="ti ti-map-pin"></i>산청군 전 지역</div>
+        <!-- 민원 현장 경청 및 상담 가상 SVG 일러스트 -->
+        <svg class="pic" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" role="img">
+          <rect width="400" height="500" fill="#EBF1E8"/>
+          <rect x="30" y="80" width="340" height="380" rx="12" fill="#D9E4D4" opacity="0.6"/>
+          <rect x="60" y="120" width="110" height="90" rx="6" fill="#C1D3B9"/>
+          <rect x="230" y="120" width="110" height="90" rx="6" fill="#C1D3B9"/>
+          <path d="M20 420 L380 420 L360 500 L40 500 Z" fill="#8C7355"/>
+          <rect x="30" y="410" width="340" height="15" rx="4" fill="#A68B67"/>
+          <rect x="150" y="390" width="100" height="30" rx="3" fill="#FFFFFF" transform="rotate(-5 200 405)"/>
+          <line x1="165" y1="400" x2="235" y2="395" stroke="#295237" stroke-width="3" stroke-linecap="round"/>
+          <line x1="165" y1="408" x2="215" y2="404" stroke="#828B82" stroke-width="2"/>
+          <path d="M70 500 C70 410 110 360 160 350 L180 500 Z" fill="#5C6B5D"/>
+          <ellipse cx="120" cy="280" rx="42" ry="48" fill="#E8C3A2"/>
+          <path d="M78 280 C78 220 110 200 120 200 C130 200 162 220 162 280 Z" fill="#423D3A"/>
+          <path d="M220 500 L240 350 C290 360 330 410 330 500 Z" fill="#295237"/>
+          <ellipse cx="280" cy="270" rx="40" ry="46" fill="#EAC3A1"/>
+          <path d="M240 270 C240 210 270 190 280 190 C290 190 320 210 320 270 Z" fill="#212B23"/>
+          <circle cx="200" cy="230" r="28" fill="#C6852B"/>
+          <path d="M190 230 L210 230 M200 220 L200 240" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+        <div class="tag"><i class="ti ti-messages"></i>현장 밀착 민원 상담 중</div>
       </div>
     </div>
   </div>
@@ -296,48 +276,6 @@
     </svg>
   </div>
 </header>
-
-<!-- 프로필 및 약력 섹션 -->
-<section class="block profile-section" id="profile" style="background:var(--white); border-bottom:1px solid var(--line);">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <p class="eyebrow">걸어온 길, 걸어갈 길</p>
-      <h2>프로필 & 주요 경력</h2>
-      <p>산청을 생각하는 진심, 삶의 현장에서 다져온 실력으로 증명하겠습니다.</p>
-    </div>
-
-    <div class="profile-grid">
-      <div class="profile-img-box reveal">
-        <div style="aspect-ratio:4/5; border-radius:16px; overflow:hidden; border:1px solid var(--line); box-shadow:0 4px 12px rgba(0,0,0,0.03);">
-          <!-- 서브 프로필 사진 (실제 파일 올릴 시 profile.jpg로 연동) -->
-          <img src="profile.jpg" alt="프로필 사진" onerror="this.src='https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&auto=format&fit=crop&q=80'" style="width:100%; height:100%; object-fit:cover;">
-        </div>
-      </div>
-
-      <div class="profile-content reveal">
-        <div style="background:var(--paper); padding:24px; border-radius:16px; border-left:4px solid var(--pine); margin-bottom:28px;">
-          <h3 style="font-size:19px; color:var(--pine-deep); margin-bottom:8px;">"현장에 답이 있고, 주민의 목소리가 방향입니다."</h3>
-          <p style="font-size:15px; color:var(--ink-soft); line-height:1.65;">
-            지리산의 기운을 품은 산청에서 군민 여러분과 늘 함께 호흡해 왔습니다. 
-            현장의 작은 소리도 놓치지 않고 실질적인 삶의 변화로 보답하겠습니다.
-          </p>
-        </div>
-
-        <div>
-          <h4 style="font-size:17px; margin-bottom:14px; color:var(--ink); display:flex; align-items:center; gap:8px;">
-            <i class="ti ti-certificate" style="color:var(--gam);"></i> 주요 경력 및 현직
-          </h4>
-          <ul style="list-style:none; padding-left:0; font-size:15px; color:var(--ink-soft); line-height:2.1;">
-            <li style="display:flex; gap:12px;"><strong style="color:var(--pine); min-width:60px;">[현직]</strong> <span>경상남도 산청군의회 군의원</span></li>
-            <li style="display:flex; gap:12px;"><strong style="color:var(--pine); min-width:60px;">[현직]</strong> <span>산청군의회 예산결산특별위원회 위원</span></li>
-            <li style="display:flex; gap:12px;"><strong style="color:var(--muted); min-width:60px;">[전직]</strong> <span>한국인삼공사 마케팅 부문 근무</span></li>
-            <li style="display:flex; gap:12px;"><strong style="color:var(--muted); min-width:60px;">[전직]</strong> <span>산청군 지역발전협의회 자문위원</span></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <section class="block translate" id="work">
   <div class="wrap">
@@ -379,19 +317,171 @@
 <section class="block" id="promise">
   <div class="wrap">
     <div class="sec-head reveal">
-      <p class="eyebrow">공약이 아니라 방향</p>
-      <h2>우리 동네 약속</h2>
-      <p>산청의 내일을 위해 이 네 가지 핵심 과제에 집중합니다.</p>
+      <p class="eyebrow">약속은 실천으로</p>
+      <h2>핵심 공약 이행 현황</h2>
+      <p>주민과의 약속을 투명하게 공개하고 하나씩 확실히 해결해 나갑니다.</p>
     </div>
     <div class="vgrid">
-      <div class="vcard reveal"><div class="ic"><i class="ti ti-plant-2"></i></div><h3>농업 소득 안정</h3><p>직거래 판로 확대와 스마트팜·기반 시설 집중 지원.</p></div>
-      <div class="vcard reveal"><div class="ic"><i class="ti ti-heart-handshake"></i></div><h3>어르신 돌봄</h3><p>이동 및 의료 사각지대를 줄이는 생활 밀착형 복지.</p></div>
-      <div class="vcard reveal"><div class="ic"><i class="ti ti-home-2"></i></div><h3>청년·귀농 정주</h3><p>주거·창업 체계적 지원으로 돌아오는 산청 조성.</p></div>
-      <div class="vcard reveal"><div class="ic"><i class="ti ti-shield-check"></i></div><h3>마을 안전</h3><p>도로·가로등·재해 대비 등 안전 인프라 즉시 개선.</p></div>
+      <div class="vcard reveal">
+        <div class="vcard-head">
+          <div class="ic"><i class="ti ti-plant-2"></i></div>
+          <span class="badge-status badge-done">완료 100%</span>
+        </div>
+        <h3>농업 소득 안정 및 판로 확대</h3>
+        <p>산청 곶감·딸기 직거래 마케팅 예산 확대 편성 및 소농 스마트팜 기반 확충.</p>
+        <div class="progress-wrap">
+          <div class="progress-label"><span>이행률</span><span>100%</span></div>
+          <div class="progress-bar"><div class="progress-fill" style="width:100%"></div></div>
+        </div>
+      </div>
+
+      <div class="vcard reveal">
+        <div class="vcard-head">
+          <div class="ic"><i class="ti ti-heart-handshake"></i></div>
+          <span class="badge-status badge-ing">진행중 75%</span>
+        </div>
+        <h3>어르신 돌봄 & 복지 확대</h3>
+        <p>경로당 냉난방비 증액 조례 개정 완료 및 마을 의료·이동 사각지대 해소 추진 중.</p>
+        <div class="progress-wrap">
+          <div class="progress-label"><span>이행률</span><span>75%</span></div>
+          <div class="progress-bar"><div class="progress-fill" style="width:75%"></div></div>
+        </div>
+      </div>
+
+      <div class="vcard reveal">
+        <div class="vcard-head">
+          <div class="ic"><i class="ti ti-home-2"></i></div>
+          <span class="badge-status badge-ing">진행중 50%</span>
+        </div>
+        <h3>청년 & 귀농·귀촌 정주 지원</h3>
+        <p>청년 농업인 창업 지원금 확보 및 맞춤형 주거·인프라 체계 구축 단계.</p>
+        <div class="progress-wrap">
+          <div class="progress-label"><span>이행률</span><span>50%</span></div>
+          <div class="progress-bar"><div class="progress-fill" style="width:50%"></div></div>
+        </div>
+      </div>
+
+      <div class="vcard reveal">
+        <div class="vcard-head">
+          <div class="ic"><i class="ti ti-shield-check"></i></div>
+          <span class="badge-status badge-done">완료 100%</span>
+        </div>
+        <h3>마을 안심 안전망 구축</h3>
+        <p>주요 위험 마을 안길 및 진입로 안전 가로등·CCTV 예산 확보 및 조기 설치 완료.</p>
+        <div class="progress-wrap">
+          <div class="progress-label"><span>이행률</span><span>100%</span></div>
+          <div class="progress-bar"><div class="progress-fill" style="width:100%"></div></div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
+<!-- 월별 주요 일정 (달력 모듈) -->
+<section class="block calendar-section" id="calendar">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">투명한 의정 기록</p>
+      <h2>월별 주요 의정 일정</h2>
+      <p>날짜를 클릭하시면 의원님의 발로 뛰는 활동 기록과 상세 현장 내용을 보실 수 있습니다.</p>
+    </div>
+
+    <div class="cal-container reveal">
+      <div>
+        <div class="cal-header">
+          <h3><i class="ti ti-calendar-event"></i> 2026년 8월 의정 활동</h3>
+          <div class="cal-nav">
+            <button class="cal-nav-btn"><i class="ti ti-chevron-left"></i></button>
+            <button class="cal-nav-btn"><i class="ti ti-chevron-right"></i></button>
+          </div>
+        </div>
+        
+        <div class="cal-grid">
+          <div class="cal-day-head sun">일</div>
+          <div class="cal-day-head">월</div>
+          <div class="cal-day-head">화</div>
+          <div class="cal-day-head">수</div>
+          <div class="cal-day-head">목</div>
+          <div class="cal-day-head">금</div>
+          <div class="cal-day-head sat">토</div>
+
+          <!-- 1주차 -->
+          <div class="cal-cell other-month"><span class="num">26</span></div>
+          <div class="cal-cell other-month"><span class="num">27</span></div>
+          <div class="cal-cell other-month"><span class="num">28</span></div>
+          <div class="cal-cell other-month"><span class="num">29</span></div>
+          <div class="cal-cell other-month"><span class="num">30</span></div>
+          <div class="cal-cell other-month"><span class="num">31</span></div>
+          <div class="cal-cell sat"><span class="num">1</span></div>
+
+          <!-- 2주차 -->
+          <div class="cal-cell sun"><span class="num">2</span></div>
+          <div class="cal-cell"><span class="num">3</span></div>
+          <div class="cal-cell active">
+            <span class="num">4</span>
+            <span class="cal-tag tag-field">현장점검</span>
+          </div>
+          <div class="cal-cell"><span class="num">5</span></div>
+          <div class="cal-cell">
+            <span class="num">6</span>
+            <span class="cal-tag tag-council">본회의</span>
+          </div>
+          <div class="cal-cell"><span class="num">7</span></div>
+          <div class="cal-cell sat"><span class="num">8</span></div>
+
+          <!-- 3주차 -->
+          <div class="cal-cell sun"><span class="num">9</span></div>
+          <div class="cal-cell"><span class="num">10</span></div>
+          <div class="cal-cell">
+            <span class="num">11</span>
+            <span class="cal-tag tag-meet">주민간담</span>
+          </div>
+          <div class="cal-cell"><span class="num">12</span></div>
+          <div class="cal-cell"><span class="num">13</span></div>
+          <div class="cal-cell"><span class="num">14</span></div>
+          <div class="cal-cell sat"><span class="num">15</span></div>
+
+          <!-- 4주차 -->
+          <div class="cal-cell sun"><span class="num">16</span></div>
+          <div class="cal-cell"><span class="num">17</span></div>
+          <div class="cal-cell"><span class="num">18</span></div>
+          <div class="cal-cell">
+            <span class="num">19</span>
+            <span class="cal-tag tag-field">농가방문</span>
+          </div>
+          <div class="cal-cell"><span class="num">20</span></div>
+          <div class="cal-cell"><span class="num">21</span></div>
+          <div class="cal-cell sat"><span class="num">22</span></div>
+        </div>
+      </div>
+
+      <!-- 선택 날짜 상세 세부 카드 -->
+      <div class="cal-detail-card">
+        <div>
+          <div class="cal-detail-head">
+            <span class="eyebrow">선택된 일정 상세</span>
+            <div class="date-title">8월 4일 (화요일)</div>
+          </div>
+          <div class="schedule-item">
+            <span class="time">10:00 AM · [현장점검]</span>
+            <div class="title">단성면 세천 정비 공사 현장 점검</div>
+            <div class="desc">장마철 집중호우 대비 배수로 정비 상황 점검 및 주민 의견 수렴 (군청 건설과 담당자 동행)</div>
+          </div>
+          <div class="schedule-item">
+            <span class="time">02:00 PM · [주민소통]</span>
+            <div class="title">차황면 경로당 어르신 복지 간담회</div>
+            <div class="desc">폭염 대비 경로당 냉방 기기 운영 실태 점검 및 어르신 애로사항 청취</div>
+          </div>
+        </div>
+        <a href="#contact" class="btn btn-ghost" style="width:100%;justify-content:center;margin-top:20px;">
+          <i class="ti ti-plus"></i>관련 일정 민원 건의하기
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 활동 소식 (SNS 카드 및 가상 일러스트 내장) -->
 <section class="block" id="news" style="background:var(--paper-2);border-top:1px solid var(--line)">
   <div class="wrap">
     <div class="sec-head reveal">
@@ -400,9 +490,16 @@
       <p>SNS를 통해 주민들과 소통하는 최근 의정활동 모습입니다.</p>
     </div>
     <div class="ngrid">
+      <!-- 카드 1: 인스타그램 현장 사진 가상 그래픽 -->
       <a href="#" class="ncard reveal">
         <div class="thumb">
-          <img src="news1.jpg" alt="소식 1" onerror="this.src='https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=500&auto=format&fit=crop&q=80'">
+          <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+            <rect width="300" height="200" fill="#E2EAD8"/>
+            <path d="M0 140 Q 75 100 150 130 T 300 110 L 300 200 L 0 200 Z" fill="#B5C9A7"/>
+            <circle cx="220" cy="60" r="22" fill="#F3E7CF"/>
+            <path d="M80 140 L100 110 L120 140 Z" fill="#6E8A6A"/>
+            <path d="M110 140 L135 95 L160 140 Z" fill="#295237"/>
+          </svg>
           <span class="src-badge"><i class="ti ti-brand-instagram" style="color:#C13584"></i></span>
         </div>
         <div class="body">
@@ -410,9 +507,15 @@
           <div class="meta"><span class="src">Instagram</span><span class="dot"></span><span>3일 전</span></div>
         </div>
       </a>
+
+      <!-- 카드 2: 유튜브 의정 영상 가상 그래픽 -->
       <a href="#" class="ncard reveal">
         <div class="thumb">
-          <img src="news2.jpg" alt="소식 2" onerror="this.src='https://images.unsplash.com/photo-1577495508048-b635879837f1?w=500&auto=format&fit=crop&q=80'">
+          <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+            <rect width="300" height="200" fill="#295237"/>
+            <rect x="30" y="30" width="240" height="140" rx="8" fill="#1C3B27" stroke="#4B564D" stroke-width="2"/>
+            <polygon points="135,80 175,100 135,120" fill="#C6852B"/>
+          </svg>
           <span class="src-badge"><i class="ti ti-brand-youtube" style="color:#FF0000"></i></span>
         </div>
         <div class="body">
@@ -420,9 +523,17 @@
           <div class="meta"><span class="src">YouTube</span><span class="dot"></span><span>5일 전</span></div>
         </div>
       </a>
+
+      <!-- 카드 3: 페이스북 주민 소통 가상 그래픽 -->
       <a href="#" class="ncard reveal">
         <div class="thumb">
-          <img src="news3.jpg" alt="소식 3" onerror="this.src='https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=500&auto=format&fit=crop&q=80'">
+          <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+            <rect width="300" height="200" fill="#F3E7CF"/>
+            <circle cx="100" cy="90" r="30" fill="#C6852B"/>
+            <circle cx="200" cy="90" r="30" fill="#6E8A6A"/>
+            <path d="M60 170 C60 130 140 130 140 170 Z" fill="#7A5314"/>
+            <path d="M160 170 C160 130 240 130 240 170 Z" fill="#295237"/>
+          </svg>
           <span class="src-badge"><i class="ti ti-brand-facebook" style="color:#1877F2"></i></span>
         </div>
         <div class="body">
@@ -434,6 +545,7 @@
   </div>
 </section>
 
+<!-- 소통 민원 창구 -->
 <section class="block contact" id="contact">
   <div class="wrap">
     <div class="sec-head reveal">
@@ -442,8 +554,7 @@
       <p>주민 여러분의 작은 목소리도 소중히 듣고 직접 회신드리겠습니다.</p>
     </div>
     
-    <form class="cform reveal" name="minwon-form" method="POST" data-netlify="true">
-      <input type="hidden" name="form-name" value="minwon-form" />
+    <form class="cform reveal">
       <div class="frow">
         <div><label class="fl">성함</label><input class="inp" type="text" name="name" placeholder="홍길동" required></div>
         <div><label class="fl">연락처</label><input class="inp" type="tel" name="phone" placeholder="010-0000-0000" required></div>
@@ -467,12 +578,6 @@
     </form>
   </div>
 </section>
-
-<!-- Floating Kakao Button -->
-<a href="https://open.kakao.com/" target="_blank" class="kakao-float-btn" aria-label="카카오톡 민원 상담">
-  <i class="ti ti-message-dots"></i>
-  <span>카톡 민원 상담</span>
-</a>
 
 <footer>
   <div class="wrap frow2">
@@ -526,6 +631,12 @@
       }, 30);
     });
   }
+
+  /* 구글 캘린더 API 실시간 연동 준비 연동부 (추후 API Key 입력) */
+  const GOOGLE_CALENDAR_CONFIG = {
+    apiKey: "YOUR_GOOGLE_API_KEY",
+    calendarId: "YOUR_OFFICIAL_CALENDAR_ID@group.calendar.google.com"
+  };
 </script>
 </body>
 </html>
